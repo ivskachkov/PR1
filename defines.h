@@ -1,6 +1,8 @@
 #ifndef DEFINES_H
 #define DEFINES_H
 
+#define TRUE 1
+#define FALSE 0
 #define ERR(FORMAT,...) fprintf(stderr, FORMAT, __VA_ARGS__)
 #define LOG(FORMAT,...) fprintf(stdout, FORMAT, __VA_ARGS__)
 
