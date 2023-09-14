@@ -43,5 +43,6 @@ int convertA2R(int value, char *out, size_t size){
         value = value % i;
         result = convert(x, &out, end, ROMAN[g*2], ROMAN[g*2 + 1], ROMAN[g*2 +2]);
     }
+    SAFE_WRITE(&out, end, '\0');
     return result;
 }

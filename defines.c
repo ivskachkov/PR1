@@ -13,6 +13,9 @@ void printStatus(int status){
     case STATUS_OUT_OF_BUFFER:
         ERR("Status %s \n", "Out of buffer"); 
         break;
+    case STATUS_NOT_A_DIGIT:
+        ERR("Status %s \n", "Not a digit"); 
+        break;
 
     default:
         ERR("Status %s \n", "undefiend");

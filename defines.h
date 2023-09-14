@@ -10,6 +10,7 @@
 #define STATUS_OK                   0
 #define STATUS_OUT_OF_RANGE         1
 #define STATUS_OUT_OF_BUFFER        2
+#define STATUS_NOT_A_DIGIT          3
 
 void printStatus(int status);
 #endif//DEFINES_H
